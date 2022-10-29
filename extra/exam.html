@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+            <form name = "Report">
+                <label>Student name</label>
+                <input type="text" name="name" id="name" placeholder="student name"><br>
+                <label>Maths</label>
+                <input type="number" name="Maths" id="maths" placeholder="maths"><br>
+                <label>phil</label>
+                <input type="number" name="phil" id="phil" placeholder="phil"><br>
+                <label>lite</label>
+                <input type="number" name="lite" id="lite" placeholder="lite"><br>
+                <label>comp</label>
+                <input type="number" name="comp" id="comp" placeholder="comp"><br>
+                <label>phyc</label>
+                <input type="number" name="phyc" id="phyc" placeholder="phyc"><br>
+                <button type = "submit">SUBMIT</button>
+            </form>
+    </div> 
+    <div class="feedback">
+        <button class="btn">Submit</button>
+        <script>
+            var btn = document.querySelector(".btn");
+            var position;
+            btn.addEventListener("mouseover", function(){
+                position ? (position = 0) : (position = 150);
+                btn.style.transform = `translate(${position}px, 0px)`
+                btn.style.transition = "all 0.3s ease";
+            });
+        </script>
+    </div>
+
+
+</body>
+<script src="exam.js"></script>
+</html>

@@ -1,0 +1,19 @@
+h1 {
+    font-style: italic;
+    background-color: blueviolet;
+    align-items: center;
+    text-decoration: underline;
+    text-transform: unset;
+}
+p {
+    background-color: aquamarine;
+}
+h2 {
+    font-weight: lighter;
+    text-decoration: wavy;
+    text-align: center;
+    font-style: italic;
+}
+button {
+    align-items: center;
+}
