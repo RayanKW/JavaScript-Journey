@@ -8,3 +8,5 @@ nonetheless I intend to seriously commit to the learning process
 to motivate me. I have realized my productivity increases when there is a reward so when doing a task lately I am setting a reward. the reward of this is not physical or anything. It's just me telling myself I have a topic to read, write a code on it and push the code to github.
 #
 #Well this is the genesis I hope!
+#
+#P.s i have started and a week by the time I am starting this.
